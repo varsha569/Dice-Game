@@ -137,4 +137,26 @@ footer {
     width: 200px;
     font-size: 0.8rem;
   }
+  .dice p{
+    padding-left:10px;
+  }
+}
+@media (max-width: 320px) {
+  .container {
+    max-width: 100%;
+  }
+  .dice {
+    margin: 5px auto;
+  }
+  .dice img {
+    width: 30%;
+    min-width: 100px;
+  }
+  button {
+    width: 150px;
+    font-size: 0.6rem;
+  }
+  .dice p{
+    padding-left:10px;
+  }
 }
