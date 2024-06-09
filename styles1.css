@@ -1,0 +1,45 @@
+/* style.css */
+body {
+    font-family: 'Rubik Doodle Triangles', sans-serif;
+    background-color: #87CEEB; /* light gray background */
+}
+
+.container {
+    min-height: 300px;
+    max-width:80%; 
+    margin: 40px auto 60px; /* add 60px margin to the bottom */
+    text-align: center;
+    background-color: #E5E5EA; /* white background */
+    border: 1px solid #ddd; /* light gray border */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+
+
+h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+#start-game {
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff; /* white text */
+    background-color: #4CAF50; /* green background */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px auto;
+    width: 200px; /* Set a fixed width for the button */
+    height: 90px;
+    display: block;
+    margin: 0 auto;
+}
+
+#start-game:hover {
+    background-color: #EAAA3D;
+}
